@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+background-color: rgba(148, 0, 211, 0.459);
+width: 100%;
+height: 100px;
+margin-top: auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.header> a:hover {
+    color:green;
+}
+
+.header>a{
+    text-decoration: none;
+    color:white;
+    
+ }
+ .footer{
+background-color:rgba(148, 0, 211, 0.459);
+margin-top: 550px;
+height: 100px;
+padding-top: 30px;
+
+ }
+.droite{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.gauche>a:hover{
+    color: green;
+    
+}
+.gauche>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.formco{
+    width: 16%;
+    border: 2px solid rgba(148, 0, 211, 0.459);
+     box-shadow: 0px 0px 17.5px rgba(148, 0, 211, 0.459);
+    margin-left: 40%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.formajou{
+    width: 16%;
+    border: 2px solid rgba(148, 0, 211, 0.459);
+    box-shadow: 0px 0px 17.5px rgba(148, 0, 211, 0.459);
+    margin-left: 40%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+.texte{
+text-align: center;
+}
+h1{
+    text-align: center;
+}
+.liste{
+margin-top: 60px;
+
+}
+.liste >a{
+font-size:x-large;
+text-decoration:none;
+color:black;
+margin-left: 20px;
+}
+
+button{
+border-radius: 5px;
+}
